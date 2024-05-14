@@ -1,9 +1,6 @@
 from pymavlink import mavutil
 import time
 
-# Set up listening connection
-drone_1 = mavutil.mavlink_connection('udpin:localhost:14540')
-
 def receive_heartbeat():
     """
     Method to receive a heartbeat from another drone.
@@ -48,5 +45,8 @@ def receive_messages():
 
 
 if __name__ == '__main__':
+    # Set up listening connection
+    drone_1 = mavutil.mavlink_connection('udpin:localhost:14540')
+
     # receive_heartbeat()
     receive_messages()
