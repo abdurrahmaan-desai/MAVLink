@@ -28,7 +28,7 @@ def receive_messages():
     Method to receive a message from another drone
 
     Infinite loop with exception printing for demonstration purposes.
-    Will sleep for 5 seconds to make incoming messages clear
+    Will sleep for 3 seconds to make incoming messages clear
 
     Args:
         None
