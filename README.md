@@ -1,7 +1,7 @@
 # MAVLink Test Project
 
 ## Prerequisites
-- pymavlink package
+- pymavlink
 
 ## Usage:
 - Start master_drone.py
