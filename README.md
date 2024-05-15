@@ -21,3 +21,5 @@ Currently, the system will only assume 1 drone is connected. See [source-system-
 [Source-system-filtering](https://github.com/peterbarker/dronekit-python/tree/source-system-filtering/examples/multivehicle)
 
 [Pymavlink Examples](https://mavlink.io/en/mavgen_python/examples.html)
+
+[Example Custom Application - Medium](https://medium.com/@tonyjacob_/using-mavlink-for-custom-applications-466e1d632f84)
