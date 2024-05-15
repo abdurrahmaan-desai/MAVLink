@@ -1,7 +1,7 @@
 from pymavlink import mavutil
 
 
-def send_heartbeat(drone):
+def send_heartbeat(drone: mavutil.mavserial):
     """
     Method to send a heartbeat to the master drone
 
@@ -21,7 +21,7 @@ def send_message(drone: mavutil.mavserial, message: str):
 
     Args:
         drone: the drone to enact the action on
-        message: the message to sense
+        message: the message to send
 
     Returns:
         None
